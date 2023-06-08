@@ -21,12 +21,16 @@
                       images/museum-720.jpg,
                       images/museum-960.jpg"
               media="(max-width: 960px)"/>
+   
+      <source srcset="images/museum-480_x_480.jpg 480w,
+                    images/museum-640_x_640.jpg 640w,
+                    images/museum-800_x_800.jpg 800w"
+              media="(min-width: 960px)" />
   
-      <source srcset="images/museum-320.jpg,
-                    images/museum-480.jpg,
-                    images/museum-720.jpg,
-                    images/museum-960.jpg"
-media="(min-width: 960px)"/>
+      <img class="orig-img"
+           src="images/museum.jpg"
+           alt="museum">
+  </picture>
   </header>
 </body>
 
